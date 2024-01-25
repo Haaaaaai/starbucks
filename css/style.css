@@ -7,7 +7,11 @@ img { width:100%; }
 body, a {
     font-family: 'Noto Sans KR', sans-serif;
 }
-
+html, body {
+    width:100%;
+    /* 가로스크롤 숨김 */
+    overflow-x: hidden;
+}
 
 
 /* 미디어 쿼리 - 분기점(breakpoint) - 모바일 버전*/
