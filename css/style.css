@@ -431,8 +431,8 @@ section, footer {
     }
     section.s8 .store_txt .txt1 {
         position:absolute;
-        /* left:50%; */
-        transform:translateX(12%);
+        left:50%;
+        transform:translateX(-50%);
     }
     section.s8 .store_txt h3 {
         font-weight:500;
@@ -448,14 +448,13 @@ section, footer {
         position:absolute;
     }
     section.s8 .store_txt .p1 {
-        /* left:50%; */
-        transform:translateX(6%);
+        left:50%;
+        transform:translateX(-50%);
     }
     section.s8 .store_txt .p2 {
-        /* top:48vw; */
-        /* left:50%; */
-        transform:translateX(200%);
-        transform:translateY(170%);
+        top:48vw;
+        left:50%;
+        transform:translate(-50%);
     }
     section.s8 .store_txt a {
         width:35vw;
@@ -468,7 +467,8 @@ section, footer {
         padding:0.6vw 7vw;
         white-space: nowrap;
         position:absolute;
-        transform:translateX(100%);
+        left:50%;
+        transform:translate(-50%);
     }
     section.s8 .store_icon {
         width:50%;
