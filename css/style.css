@@ -101,7 +101,7 @@ section, footer {
     }
     section.s1 .moment {
         width:42vw;
-        margin:7vw 10vw auto;
+        margin:7vw auto;
     }
     section.s1 .drink {
         display:flex;
