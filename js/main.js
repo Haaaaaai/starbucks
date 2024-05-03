@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $(".ani1").addClass("active");
     $(".search_btn").click(function(){
         $(".search_area").animate({"width":180});
         $(".login input").animate({"width":140});
