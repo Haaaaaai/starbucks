@@ -1479,6 +1479,7 @@ section, footer {
         margin-top:45%;
         display:inline-block;
         left:4%;
+        transform:none;
     }
     section.s8 a:hover {
         background-color: #222;
