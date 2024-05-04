@@ -1113,7 +1113,7 @@ section, footer {
         padding-left:5%;
     }
     section.s2 .center_box .btn a {
-        width:3.5vw;
+        width:1.5rem;
     }
 
     /* 공지사항 제목 보임 */
@@ -1322,6 +1322,7 @@ section, footer {
         display:block;
         width:100%;
         position:absolute;
+        left:10%;
     }
     section.s6 .pick_txt .pick_title img {
         width:70%;
@@ -1438,8 +1439,8 @@ section, footer {
     }
     section.s8 .store_txt .txt1 {
         top:0;
-        /* left:0%; */
-        transform:translateX(0);
+        left:50%;
+        transform:translateX(-50%);
     }
     section.s8 .store_txt h3 {
         font-size:2.6vw;
@@ -1451,8 +1452,7 @@ section, footer {
     section.s8 .store_txt .txt2 {
         position:absolute;
         margin-top:16%;
-        /* left:000%; */
-        transform: translateX(0);
+        left:-40%;
     }
     section.s8 .store_txt p {
         font-size:1.3vw;
@@ -1478,8 +1478,7 @@ section, footer {
         margin:0;
         margin-top:45%;
         display:inline-block;
-        transform: translateX(0);
-        /* left:300%; */
+        left:4%;
     }
     section.s8 a:hover {
         background-color: #222;
@@ -1514,7 +1513,7 @@ section, footer {
     }
     footer .sitemap .sitemap_list > ul > li {
         margin-top:3vw;
-        width:24.5vw;
+        width:24vw;
     }
     footer .sitemap .sitemap_list > ul > li:first-child {
         display: none;
@@ -2188,7 +2187,6 @@ section, footer {
     }
     section.s6 .pick_txt .pick_title {
         display:block;
-        width:13vw;
         width:100%;
         margin-bottom:1vw;
     }
@@ -2214,7 +2212,7 @@ section, footer {
     section.s6 .pick_txt .pick_con h3 {
         font-size:1.4vw;
         line-height: 1.6vw;
-        margin-top:2.3vw;
+        margin-top:6vw;
         margin-bottom:0.5vw;
         font-weight:300;
     }
@@ -2237,6 +2235,7 @@ section, footer {
         background-repeat: no-repeat;
         background-size: 100%;
         height:20.84vw;
+        overflow:hidden;
     }
     section.s7 .center_box {height:100%;}
     section.s7 .magazine {
@@ -2268,7 +2267,7 @@ section, footer {
         color:#fff;
     }
     section.s8 {
-        height:20.84vw;        
+        height:22vw;        
         overflow: hidden;
     }
     section.s8 .center_box {
@@ -2312,6 +2311,10 @@ section, footer {
         margin-top:1vw;
         top:0;
     }
+    section.s8 .store_txt .p1,
+    section.s8 .store_txt .p2 {
+        transform:translateX(-18%)
+    }
     /* 매장 찾기 버튼 */
     section.s8 .store_txt a {
         width:7vw;
@@ -2322,8 +2325,8 @@ section, footer {
         padding:0;
         margin:0;
         margin-top:10vw;
-        transform: translateX(0);
         display:inline-block;
+        left:-3%;
     }
     section.s8 a:hover {
         background-color: #222;
